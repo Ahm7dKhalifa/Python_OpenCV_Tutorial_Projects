@@ -1,0 +1,82 @@
+
+
+========================================
+1.install anaconda  
+========================================
+- just go to the official website :
+https://www.anaconda.com/download/
+- before download
+    - choose your operation system
+    - choose the version of python 2 or 3
+- the versions i used :
+- Anaconda3-5.2.0-Windows-x86_64 ( python v3 )
+- opencv 3.4.1
+==========================================
+2.install opencv(this way work with me and very simple)
+==========================================
+- q/a folder
+- just open this link :
+https://anaconda.org/conda-forge/opencv
+- copy this instruction :
+conda install -c conda-forge opencv 
+- open anaconda propmpt
+- just paste and run the instruction above
+- after about 10 sec u well see question and end with [ y /n ]
+- enter y and click on the enter button 
+==========================================
+3.another ways to install opencv
+==========================================
+***first way :
+- https://www.youtube.com/watch?v=w2yiJ82OIUg
+- https://opencv.org/releases.html
+***second way :
+https://www.learnopencv.com/install-opencv-3-and-dlib-on-windows-python-only/
+***third way :
+https://gitall.tech/tutorial/installation-opencv-on-windows-using-anaconda/
+==========================================
+4.
+==========================================
+
+
+==========================================
+5.
+==========================================
+
+
+==========================================
+6.
+==========================================
+
+
+==========================================
+7.
+==========================================
+
+
+==========================================
+8.
+==========================================
+
+
+==========================================
+9.
+==========================================
+
+
+==========================================
+10.
+==========================================
+
+==========================================
+2.
+==========================================
+
+
+==========================================
+2.
+==========================================
+
+
+==========================================
+2.
+==========================================
