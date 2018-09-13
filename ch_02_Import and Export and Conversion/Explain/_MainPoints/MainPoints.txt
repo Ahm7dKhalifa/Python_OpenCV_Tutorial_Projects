@@ -1,0 +1,77 @@
+========================================
+1.python tutorials for read,write,display 
+========================================
+- q/a folder
+- https://docs.opencv.org/3.4/dc/d2e/tutorial_py_image_display.html
+==========================================
+2.c++ tutorials for read,write,display
+==========================================
+- q/a folder
+- https://docs.opencv.org/3.4/db/deb/tutorial_display_image.html
+==========================================
+3.imread function ref
+==========================================
+- q/a
+- https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56
+- https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#ga61d9b0126a3e57d9277ac48327799c80
+==========================================
+4.imshow function ref
+==========================================
+- q/a
+- https://docs.opencv.org/3.4/d7/dfc/group__highgui.html#ga453d42fe4cb60e5723281a89973ee563
+
+==========================================
+5.imwrite function ref
+==========================================
+- q/a
+- https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#gabbc7ef1aa2edfaa87772f1202d67e0ce
+- https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#ga292d81be8d76901bff7988d18d2b42ac
+==========================================
+6.URL to image with Python and OpenCV Tutorials
+==========================================
+- q/a
+- https://www.pyimagesearch.com/2015/03/02/convert-url-to-image-with-python-and-opencv/
+- https://stackoverflow.com/questions/21061814/how-can-i-read-an-image-from-an-internet-url-in-python-cv2-scikit-image-and-mah
+==========================================
+7.bytearray() ref
+==========================================
+- q/a
+- https://www.w3schools.com/python/ref_func_bytearray.asp
+==========================================
+8.imgcodecs function ref
+==========================================
+- q/a
+- https://docs.opencv.org/3.0-beta/modules/imgcodecs/doc/reading_and_writing_images.html
+
+==========================================
+9.numpy array
+==========================================
+-q/a
+- https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html
+- https://en.wikipedia.org/wiki/NumPy
+- https://webcourses.ucf.edu/courses/1249560/pages/python-lists-vs-numpy-arrays-what-is-the-difference
+- https://snakify.org/en/lessons/two_dimensional_lists_arrays/
+- http://cs231n.github.io/python-numpy-tutorial/
+- https://medium.com/backticks-tildes/list-vs-array-python-data-type-40ac4f294551
+==========================================
+10.working with video files and webcams tutorials
+==========================================
+-q/a
+- https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html#display-video
+- https://www.youtube.com/watch?v=Jvf5y21ZqtQ
+- https://www.learnopencv.com/read-write-and-display-a-video-using-opencv-cpp-python/
+==========================================
+11.VideoCapture class ref
+==========================================
+-q/a
+- https://docs.opencv.org/3.1.0/d8/dfe/classcv_1_1VideoCapture.html
+
+==========================================
+12.VideoWriter class ref
+==========================================
+- q/a
+- https://docs.opencv.org/3.4.3/dd/d9e/classcv_1_1VideoWriter.html
+
+==========================================
+2.
+==========================================
