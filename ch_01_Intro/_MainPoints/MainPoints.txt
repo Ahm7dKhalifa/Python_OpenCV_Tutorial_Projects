@@ -1,0 +1,94 @@
+b1 -> Oreilly Learning OpenCV book
+q/a mean in q_a folder for every question here
+the answer for it well be in the same number folder
+========================================
+1.what is the image
+========================================
+-q/a folder
+
+==========================================
+2.What is a digital Image
+==========================================
+-q/a folder
+
+==========================================
+3.What is digital image processing?
+==========================================
+-Q/A folder
+
+==========================================
+4. - image Processing and computer vision 
+    - Image Processing Levels
+==========================================
+- Low Level : 
+  - Basic Or PreProcessing Operations
+  - goal : image enhancement and image manipulation
+  - ex :
+         - image acquisition
+         - arthimatic or logic operations
+         - transforming or geometric operations
+         - image enhancement and image manipulation
+         - and so on ..
+- high level :
+  - computer vision
+  - goal : segmentation, analysis , understanding 
+  - ex :
+         - image segmentation techniques
+         - object recognition
+         - object identify
+         - object tracking
+         - action recognition
+         - scene understand
+         and so on ....   
+==========================================
+5.image processing stages
+==========================================
+-q/a  folder
+
+==========================================
+6.Tools and libraries for Computer Vision 
+==========================================
+-q/a  folder
+
+==========================================
+7.what is opencv
+==========================================
+- b1 -> p1
+- https://opencv.org/about.html
+==========================================
+8.opencv vs matlab
+==========================================
+- q/a folder
+
+==========================================
+9.where to find :
+  - the official documents,Tutorials
+  - all modules
+  - classes or references
+  -  ....
+==========================================
+1-go to :
+https://opencv.org/
+2- follow the step in the q/a folder
+ 
+
+
+==========================================
+10.where to find official opencv python documentaion
+==========================================
+https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html
+
+==========================================
+2.
+==========================================
+
+
+==========================================
+2.
+==========================================
+
+
+==========================================
+2.
+==========================================
