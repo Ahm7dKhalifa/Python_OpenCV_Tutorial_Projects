@@ -1,0 +1,93 @@
+b1 -> PRACTICAL IMAGE AND VIDEO PROCESSING USING MATLAB  Book
+
+========================================
+1.ARITHMETIC and LOGIC OPERATIONS Formula
+========================================
+- b1 -> 103
+
+==========================================
+2.Use Cases Of Addition Image Or Scalor Value for another Image  
+==========================================
+- b1 -> 104
+
+==========================================
+3.how to deal with overflow issue when the result pixel is bigger than 255
+==========================================
+- b1 -> 105
+
+==========================================
+4.condition of adding or any type of arthimatic operation
+==========================================
+- q/a folder
+
+==========================================
+5.examples
+==========================================
+https://www.youtube.com/watch?v=nIZZIe_YTQA
+
+==========================================
+6.three way of add operations in opencv
+==========================================
+- in Projects/P_01_add operation. 
+- https://docs.opencv.org/3.2.0/d0/d86/tutorial_py_image_arithmetics.html
+- q/a folder
+==========================================
+7. cv2.add(), cv2.addWeighted() --> Ref
+==========================================
+- https://docs.opencv.org/3.2.0/d2/de8/group__core__array.html#ga10ac1bfb180e2cfda1701d06c24fdbd6
+- https://docs.opencv.org/3.2.0/d2/de8/group__core__array.html#gafafb2513349db3bcff51f54ee5592a19
+- q/a folder
+
+==========================================
+8.Use Cases Of Subtraction Image Or Scalor Value for another Image 
+==========================================
+b1 -> 107
+
+==========================================
+9.how to deal with underflow issue in Subtraction operation
+==========================================
+b1 -> 107
+
+==========================================
+10. cv2.subtract ref
+==========================================
+- q/a folder
+- https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gaa0f00d98b4b5edeaeb7b8333b2de353b
+- https://docs.opencv.org/3.4/dd/d4d/tutorial_js_image_arithmetics.html
+==========================================
+11.Use Cases Of logic operations in image processing
+==========================================
+- b1 -> 111
+
+==========================================
+12.examples
+==========================================
+- q/a 
+- http://opencvexamples.blogspot.com/2013/10/bitwise-and-or-xor-and-not.html
+
+==========================================
+13.NOTES ON LOGIC OPERATION
+==========================================
+1.in gray level image 
+1.1 for and/or/xor
+the algorithem convert the gray value to binary then 
+applied the normal binary logic lows
+1.2 for not operation
+the algorithem convert the gray value to its complement or negative 
+ex :
+55 -> 255 - 55 = 200
+so the complement of 55 is 200 
+    
+==========================================
+14.what is bitwise operations
+===========================================
+-q/a folder
+- https://en.wikipedia.org/wiki/Bitwise_operation
+- https://whatis.techtarget.com/definition/bitwise
+================================================
+15.Operations on Arrays  ref
+===============================================
+- - module : Core functionality/Operations on Arrays
+- q/a
+- https://docs.opencv.org/3.4.2/d2/de8/group__core__array.html
+- https://docs.opencv.org/2.4/modules/core/doc/operations_on_arrays.html
