@@ -1,0 +1,112 @@
+#################################
+shortcut meaning used in in the main points
+#################################
+q/a = Q_A Folder
+---------------------------------
+n = NPTEL folder
+for ex :
+n/17/3 :
+folder nptel - folder 17 - page number 3 in the pdf 
+----------------------------------
+b1 = practical image and video processing using matlab book
+for ex :
+b1/151 mean page number 151
+########################################
+########################################
+
+main points in Image Enhancement
+
+########################################
+#########################################
+============================================
+0.helpful tutorials to learn how to 
+- access the pixel with different types of images 
+- Accessing Image Properties
+- how-to-know-grayscale-or-color-img-loaded
+=============================================
+- q/a
+- https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_core/py_basic_ops/py_basic_ops.html
+- https://docs.opencv.org/3.4/d5/d98/tutorial_mat_operations.html
+- http://answers.opencv.org/question/36288/how-to-know-grayscale-or-color-img-loaded/
+- https://stackoverflow.com/questions/23660929/how-to-check-whether-a-jpeg-image-is-color-or-gray-scale-using-only-python-stdli
+- https://www.mathworks.com/matlabcentral/answers/46246-how-can-i-check-if-an-image-is-rgb-or-grayscale-or-binary
+- https://www.mathworks.com/matlabcentral/answers/72412-how-can-i-check-that-my-image-is-rgb
+- https://www.mathworks.com/matlabcentral/answers/238663-how-to-check-for-a-rgb-image-or-grayscale-image-before-execution
+- https://stackoverflow.com/questions/35180764/opencv-python-image-too-big-to-display
+========================================
+1.what is Image Enhancement
+========================================
+- q/a
+- n/17-->4
+- b1/151
+==========================================
+2.what is Image Enhancement goals
+==========================================
+- b1/151
+==========================================
+3.what is Image Enhancement Techniques
+==========================================
+- n/17-->4
+==========================================
+4.Image enhancement algorithms are usually goal specific
+==========================================
+- n/17-->3
+- B1/152
+==========================================
+5.What is point Operations
+==========================================
+- b1-->152,153 
+
+==========================================
+6.what is Linear Point Transformations 
+==========================================
+- b1-->153,154,155
+
+==========================================
+7.Point Operations Examples or applications 
+  - contrast adjustment 
+==========================================
+- b1->155,156,157
+- n/17-->12
+- q/a
+
+==========================================
+8.Point Operations Examples or applications 
+  - Negative
+==========================================
+- n/17-->10,11,12
+- b1-> 157
+- q/a
+- https://www.youtube.com/watch?v=_RGJT6JKO1o
+- https://www.youtube.com/watch?v=DCxmOIFWdRs
+- https://stackoverflow.com/questions/19580102/inverting-image-in-python-with-opencv
+- http://helloraspberrypi.blogspot.com/2015/10/python-opencv-create-negative-image.html
+- https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_core/py_basic_ops/py_basic_ops.html
+
+==========================================
+9.Point Operations Examples or applications 
+  - Power Law (Gamma) Transformations
+==========================================
+- b1-> 157
+- n/17-->18,19
+- https://www.youtube.com/watch?v=Pm1CXUGRE84
+- https://www.pyimagesearch.com/2015/10/05/opencv-gamma-correction/
+==========================================
+10.Point Operations Examples or applications 
+  - Log Transformations
+==========================================
+- b1->159
+- n/17-->17
+==========================================
+11.what is Piecewise Linear Transformations
+==========================================
+- b1->160
+
+==========================================
+2.
+==========================================
+
+
+==========================================
+2.
+==========================================
