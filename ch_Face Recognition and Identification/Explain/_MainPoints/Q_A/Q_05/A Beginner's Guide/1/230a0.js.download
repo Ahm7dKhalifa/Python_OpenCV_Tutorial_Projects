@@ -1,0 +1,1 @@
+console.log("%c TruConversion: Data collection has been stopped. Please contact support[at]truconversion[dot]com", "background: yellow; color: black; padding-right: 5px;");

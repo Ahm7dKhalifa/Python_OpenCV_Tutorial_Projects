@@ -1,0 +1,37 @@
+/*
+ * form publish - includes rules are are only used when the form is publihsed on a page
+ * 	to help with making the form perfect px to the editor
+ */
+ 
+.moonray-form {
+	max-width: 100%;
+}
+
+.moonray-form .moonray-form-element-wrapper{
+	/* fixes issue of contracted elements not displaying next to each other*/
+	float: left;
+/*	set the width so, non contracted elements are the intire width of the parent*/
+	width: 100%;
+ 
+}
+/*
+ * the form design stylesheet has this rule but since the
+ * li and the div element wrapper get this class we cant have it in the form default
+ */
+.moonray-form .moonray-form-element-wrapper-contracted{
+	width: 50%;
+}
+
+.moonray-form .moonray-form-element-wrapper .moonray-form-label,
+.moonray-form .moonray-form-element-wrapper .moonray-form-input {
+	float: left;
+}
+/*having float none for submits makes the alignment classes work
+ also it messes with the checkbox label, makes it down a line from the input
+ * */
+html .moonray-form .moonray-form-input-type-submit .moonray-form-input,
+html .moonray-form .moonray-form-input-type-image .moonray-form-input,
+html .moonray-form .moonray-form-input-type-checkbox .moonray-form-label{
+/*	no float cause we're not on a boat*/
+	float: none;
+}

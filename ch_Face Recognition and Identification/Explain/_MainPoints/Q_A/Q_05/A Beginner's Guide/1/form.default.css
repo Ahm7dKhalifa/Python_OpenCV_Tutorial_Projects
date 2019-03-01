@@ -1,0 +1,461 @@
+/*
+ * formeditor default form styles
+ * 
+ * 
+ * store rules for default styles for forms
+ * to be included with the editor and the page the the form is installed on
+ * 
+ * label postion
+ * 
+ * 
+ */
+ 
+ /*
+    disabled works great, but adding it to some native elements such as forms creates different outcomes in different browsers
+    In IE, if disabled is added, it will prevent any of the form values from being posted
+  */
+[disabled],
+[locked] {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+ 
+.moonray-form{
+	min-height: 25px;
+	font: 12px Verdana,Arial,sans-serif;
+}
+
+.moonray-form .moonray-form-element-wrapper{
+	
+   overflow: hidden;
+   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+   box-sizing: border-box;         /* Opera/IE 8+ */ 
+   position: relative;
+/*   helps in the editor for blank / smaller inputs*/
+   min-height: 1em;
+ 
+}
+
+
+
+ /* 
+  * " reset "
+  */
+/* Align checkboxes, radios, text inputs with their label by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+/*.moonray-form input[type="radio"] { 
+	vertical-align: text-bottom; 
+}
+.moonray-form input[type="checkbox"] {
+	vertical-align: bottom; 
+}*/
+
+/* Hand cursor on clickable input elements */
+.moonray-form label, 
+.moonray-form input[type="button"],
+.moonray-form input[type="submit"], 
+.moonray-form input[type="image"], 
+.moonray-form button { 
+	cursor: pointer; 
+}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+.moonray-form button, 
+.moonray-form input,
+.moonray-form select,
+.moonray-form textarea,
+.moonray-form label{ 
+	margin: 0;
+	/*force elements to the top like the are floating,
+	because on the published form theses elements are floated*/
+	vertical-align: top; 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */ 
+}
+
+
+/*
+ * remove resize from textareas
+ */
+.moonray-form textarea {
+	resize: none;
+}
+/*
+hide spins boxes on inputs 
+http://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-inputs-spin-box
+*/
+.moonray-form input::-webkit-outer-spin-button,
+.moonray-form input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+/*
+ * fixes selects from being 2px taller(height) than inputs
+ * the following blocks try to address the issue fo the selects 2px taller than the inputs,
+ * the reason this does this is because 
+ * 		browsers use a different box model for selects
+ * 		or they do / dont style the option tag
+ */
+.moonray-form option {
+	font-size: 0.9em !important;
+	line-height: 0.9em !important;
+} 
+.moonray-form input,
+.moonray-form textarea {
+	margin-bottom: 1px !important;
+}
+
+
+ 
+ 
+ /*
+  * label postion
+  */
+/* left*/
+.moonray-form-label-pos-left .moonray-form-label,
+.moonray-form-label-pos-left .moonray-form-input,
+
+.moonray-form-label-pos-right  .moonray-form-label,
+.moonray-form-label-pos-right .moonray-form-input {
+	width: 50%;
+    display: inline-block;
+}
+/*right*/
+.moonray-form-label-pos-right .moonray-form-label{
+	text-align: right;
+}
+
+/*labels on top*/
+.moonray-form-label-pos-stacked .moonray-form-label,
+.moonray-form-label-pos-stacked .moonray-form-input, 
+/*catch the contracted fields make sure they get this becuase the width appied in the editor has an important*/
+html body .moonray-form-label-pos-stacked .moonray-form-label,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-text .moonray-form-input,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-email .moonray-form-input,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-date .moonray-form-input,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-range .moonray-form-input,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-password .moonray-form-input,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-file .moonray-form-input,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-number .moonray-form-input,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-tel .moonray-form-input,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-select .moonray-form-input,
+html body .moonray-form-label-pos-stacked .moonray-form-input-type-textarea .moonray-form-input {
+	display: block;
+    width: 100% !important;
+}
+
+.moonray-form-label-pos-stacked .moonray-form-label{
+	margin-bottom: .2em;
+}
+
+
+
+/*
+ * hidden fields wrapper
+ */
+.moonray-form .moonray-form-input-type-hidden{
+	padding: 0px;
+	display: none !important;
+}
+
+
+
+/*
+ * input sub text
+ * its the same width as the input its self, it needs to start at the left of the input
+ * [label]  {____input___} 
+ * 			{_______sub text_____}
+ */
+.moonray-form .moonray-form-element-wrapper .moonray-form-element-sub-text {
+/*	pretty sure this is going to reak havic on ie*/
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+
+/*labels stacked*/
+.moonray-form-label-pos-stacked .moonray-form-element-wrapper .moonray-form-element-sub-text,
+html body .moonray-form-label-pos-stacked .moonray-form-element-wrapper-contracted .moonray-form-element-sub-text {
+	float: none;
+	display: block;
+    width: 100% !important;
+}
+
+
+/*
+ * submit button
+ * images can be submit button
+ */
+html body .moonray-form .moonray-form-input-type-submit .moonray-form-input,
+html body .moonray-form .moonray-form-input-type-image .moonray-form-input,
+
+html body .moonray-form .moonray-form-element-wrapper-contracted.moonray-form-input-type-submit input.moonray-form-input,
+html body .moonray-form .moonray-form-element-wrapper-contracted.moonray-form-input-type-image input.moonray-form-input {
+/*	has to be inline to work with postion classes*/
+	display: inline !important;
+	width: auto !important;
+/*	in publish mode inputs have float, so remove it to aliment works*/
+	float: none;
+}
+
+/*
+ * for input type image make sure they dont get the following
+ * 	padding
+ * 	border
+ * 	border-radius
+ * 	background
+ */
+.moonray-form .moonray-form-input-type-image .moonray-form-input{
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	
+	background-image: none !important;
+	background-color: transparent !important;
+	
+	border-style: none !important;
+	border-radius: 0px !important;
+}
+
+/*
+	checkboxes 
+*/ 
+
+html .moonray-form .moonray-form-input-type-checkbox .moonray-form-input,
+html .moonray-form .moonray-form-element-wrapper-contracted input[type="checkbox"]{
+	width: auto !important;
+	display: inline !important;
+}
+/*fixes really short labels in non contracted element wrappers*/
+html .moonray-form .moonray-form-input-type-checkbox .moonray-form-label{
+	display: inline !important;
+}
+
+
+/*
+ * field size expaned or half size
+ * 
+ * this rule will be assigned in the form style sheet because it depends on the padding of the form
+ */
+.moonray-form .moonray-form-element-wrapper-contracted{
+	display: inline-block;
+    
+}
+
+/*
+    html/content wrappers
+    they have to get 1px padding so if they have a bg and no border the bg shows up right
+    
+
+*/
+.moonray-form .moonray-form-element-html{
+    overflow: hidden;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    min-height: 1em;
+}
+
+/*
+ * separator
+ * 
+ * only want border top, the widget sets all 4 sides
+ */
+.moonray-form .moonray-form-element-separator{
+	position: relative;
+    text-align: left;
+    border-right: 1px none!important;
+    border-bottom: 1px none!important;
+    border-left: 1px none!important;
+    overflow: visible;
+}
+
+.moonray-form .moonray-form-element-separator .moonray-form-element-separator-legend {
+    height: 1px;
+    position: absolute;
+    overflow: visible;
+}
+.moonray-form .moonray-form-element-separator .moonray-form-element-separator-legend span{
+	top: -0.5em;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: visible;
+    padding: 0.2em 0.5em;
+}
+
+
+/*
+ * element postion 
+ * used for any element that can be set to the left, right or center of its parent
+ * 
+ */
+
+.moonray-form .moonray-form-element-wrapper-alignment-left {
+	
+}
+.moonray-form .moonray-form-element-wrapper-alignment-right {
+	text-align: right;
+}
+
+.moonray-form .moonray-form-element-wrapper-alignment-center {
+	text-align: center;
+}
+.moonray-form .moonray-form-element-wrapper-alignment-right > *,
+.moonray-form .moonray-form-element-wrapper-alignment-center > * {
+	display: inline-block;
+	float: none;
+}
+
+/*
+ * states
+ * 
+ */
+.moonray-form-state-error{
+	border: 1px solid #CD0A0A;
+	box-shadow: 0px 0px 4px 0px #bc1010;
+	color: #CD0A0A;
+}
+/*remove anoying "glow" in chrome*/
+.moonray-form .moonray-form-state-active,
+.moonray-form :focus {
+	outline: none;
+}
+/* when a user has an account linked in chrome, and they auto fill the form remove the ua styling */
+.moonray-form input:-webkit-autofill{
+	background-color: inherit !important;
+	background-image: inherit !important;
+	color: inherit !important;
+
+}
+
+
+
+/*
+ * error messages
+ * 
+ */
+.moonray-form-error-message {
+	padding: 5px 8px;
+	font: 12px Verdana,Arial,sans-serif;
+	box-shadow: none;
+	background: #FEF8F6;
+	border-radius: 3px;
+
+}
+
+/*
+ * clear fix
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+
+/* For modern browsers */
+.moonray-form .moonray-form-clearfix:before,
+.moonray-form .moonray-form-clearfix:after {
+    content: "";
+    display: table;
+}
+
+.moonray-form .moonray-form-clearfix:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.moonray-form .moonray-form-clearfix {
+    zoom:1;
+}
+
+/*
+ * 
+ *
+ * make the inputs, labels and cc type display the width of there parents
+ * this should override any label position setting on the form
+ */
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-element-credit-card .moonray-form-input,
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-element-credit-card .moonray-form-label,
+.moonray-form .moonray-form-element-paymentmethod .moonnray-credit-card-display {
+	width: 100% !important;
+}
+
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-element-wrapper{
+	float: left;
+	display: inline;
+    /*since its already in a elem wrapper, kill the nested padding*/
+    padding-left: 0px;
+}
+
+
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-input-type-payment-number,
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-input-type-payment-exp-month{
+	width: 150px;
+}
+
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-input-type-payment-code,
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-input-type-payment-exp-year {
+	
+	width: 125px;
+}
+
+
+
+.moonray-form .moonray-form-element-paymentmethod  .moonray-form-element-paypal {
+	width: 136px;
+	/*float: left;*/
+	position: relative;
+	/*margin-top: 77px;
+	height: 75px;*/
+}
+
+
+
+/*
+ * credit card graphic display
+ */ 
+.moonray-form .moonray-form-credit-card-display {
+	display: block;
+	padding-left: 5px;
+	height: 31px;
+	background-repeat: no-repeat;
+    /* This background-image is located at app.ontraport.com/js/common/ussr/images/credit_card_sprite.png */
+	background-image: url( 'https://app.ontraport.com/js/common/ussr/images/credit_card_sprite.png' );
+	/* override the default 50% of the contracted with */
+	width: 100% !important;
+	float: left;
+
+}
+.moonray-form .moonray-form-credit-card-display .moonray-form-cc-logo-visa{
+	background-position: 0px 0px;
+}
+.moonray-form .moonray-form-credit-card-display .moonray-form-cc-logo-mastercard{
+	background-position: -51px 0px;
+}
+
+.moonray-form .moonray-form-credit-card-display .moonray-form-cc-logo-amex{
+	background-position: -103px 0px;
+}
+.moonray-form .moonray-form-credit-card-display .moonray-form-cc-logo-discover{
+	background-position: -154px 0px;
+}
+/*
+ * fix grid background
+ */
+.moonray-form .ussr-grid-wrapper{
+	background: transparent;
+    margin: 0 auto;
+}
+
+.moonray-form-element-wrapper.moonray-form-input-type-date input.moonray-form-input {
+    -webkit-padding-before: 3px;
+    -webkit-padding-after: 3px;
+}
+
+/* FIX FOR SELECT INPUTS TO MAKE THEM THE SAME SIZE AS INPUTS */
+.moonray-form-element-wrapper-contracted select.moonray-form-input {
+    margin-top: 1px;
+}

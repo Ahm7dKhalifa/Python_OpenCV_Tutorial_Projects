@@ -1,0 +1,73 @@
+
+
+========================================
+1.what is haar cascade xml ? and how iy work ?
+========================================
+- q/a
+- https://www.quora.com/How-does-haarcascade_frontalface_default-xml-in-Haar-cascade-work
+- https://www.youtube.com/watch?v=_QZLbR67fUU
+- https://www.youtube.com/watch?v=chVajR9IYic
+==========================================
+2.face recognition tutorials
+==========================================
+-q/a
+- https://docs.opencv.org/3.4.1/d7/d8b/tutorial_py_face_detection.html
+- https://www.youtube.com/watch?v=WfdYYNamHZ8
+- https://www.youtube.com/watch?v=88HdqNDQsEk
+- https://pythonprogramming.net/haar-cascade-face-eye-detection-python-opencv-tutorial/
+-----> https://www.youtube.com/watch?v=PmZ29Vta7Vc
+==========================================
+3.cv::CascadeClassifier Class Reference
+==========================================
+-q/a
+- https://docs.opencv.org/3.4.1/d1/de5/classcv_1_1CascadeClassifier.htm
+==========================================
+4.cv2.rectangle ref
+==========================================
+- q/a
+- https://stackoverflow.com/questions/23720875/how-to-draw-a-rectangle-around-a-region-of-interest-in-python
+
+==========================================
+5.real-time face identifaction 
+==========================================
+- q/a
+- https://www.hackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826
+- https://www.superdatascience.com/opencv-face-recognition/
+- https://thecodacus.com/category/opencv/face-recognition/
+==========================================
+6.
+==========================================
+
+
+==========================================
+7.
+==========================================
+
+
+==========================================
+8.
+==========================================
+
+
+==========================================
+9.
+==========================================
+
+
+==========================================
+10.
+==========================================
+
+==========================================
+2.
+==========================================
+
+
+==========================================
+2.
+==========================================
+
+
+==========================================
+2.
+==========================================

@@ -1,0 +1,1 @@
+jQuery(function($){var $button=$('.trial-button');var $win=$(window);var winH=$win.height();$win.on("scroll",function(){if($(this).scrollTop()>winH){$button.addClass("display-trial-button");}else{$button.removeClass("display-trial-button");}}).on("resize",function(){winH=$(this).height();});});

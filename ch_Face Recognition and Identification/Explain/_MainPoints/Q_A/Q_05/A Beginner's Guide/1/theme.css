@@ -1,0 +1,30 @@
+/* =WordPress Core
+-------------------------------------------------------------- */
+.page-template-template-access .block-start .btn-alt,
+.features .block-start .btn-alt {
+    padding: 18px 30px;
+}
+
+#content .yarpp-related{
+    margin: 0;
+}
+
+.moonray-form-p2c80199f3.ussr{
+	display: none;
+}
+
+.moonray-form-p2c80199f3.ussr:last-child{
+	display: block;
+}
+
+.gs_lp_like_container{
+    display: none;
+}
+
+.case-study-post #content .gs_lp_like_container{
+    display: block;
+}
+
+.category-case-study .gs_lp_like_container{
+    display: block;
+}

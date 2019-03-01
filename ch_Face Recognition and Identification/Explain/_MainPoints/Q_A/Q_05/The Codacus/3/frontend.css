@@ -1,0 +1,110 @@
+a.htt-tweet {
+  font-family: inherit;
+  font-weight: normal !important;
+  color: #55acee !important;
+  border-bottom: 1px dotted #55acee;
+  text-decoration: none !important; }
+
+a.htt-tweet:hover {
+  border-bottom: 1px solid #55acee;
+  text-decoration: none !important; }
+
+span.htt-tweeticon svg path {
+  fill: #55acee; }
+
+a.htt-tweet:hover .htt-tweeticon {
+  background: #55acee; }
+
+a.htt-tweet:hover .htt-tweeticon svg path {
+  fill: #fff !important; }
+
+a.htt-tweet:hover .htt-tweeticon:before {
+  border-color: transparent #55acee transparent transparent; }
+
+.htt-tweeticon {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin-left: 8px;
+  margin-right: -2px;
+  background: #eee;
+  border-radius: 2px; }
+
+.htt-tweeticon:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -10px;
+  top: 8px;
+  border: 5px solid;
+  border-color: transparent #eee transparent transparent;
+  transform: translateX(5px);
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  transition: all .25s ease;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease; }
+
+a.htt-tweet-inline {
+  margin-right: 2px; }
+
+a.htt-tweet-inline .htt-tweeticon {
+  width: 28px;
+  height: 26px;
+  transition: all .25s ease;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease; }
+
+a.htt-tweet-inline svg path {
+  transition: all .25s ease;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease; }
+
+a.htt-tweet-inline:hover .htt-tweeticon:before {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0); }
+
+.htt-tweet-blockquote {
+  position: relative;
+  padding: 0 0.5em .5em;
+  padding-left: 1.25em;
+  padding-right: 1em;
+  margin-bottom: 1.5em; }
+
+.htt-tweet-blockquote a.htt-tweet {
+  font-size: 1.2em;
+  font-style: italic;
+  padding-right: 0; }
+
+.htt-tweet-blockquote a.htt-tweet:before {
+  content: "";
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: #eee;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease; }
+
+.htt-tweet-blockquote .htt-tweeticon {
+  width: 28px;
+  background: transparent;
+  position: absolute;
+  margin-top: 7px; }
+
+.htt-tweet-blockquote a.htt-tweet:hover .htt-tweeticon {
+  background: transparent; }
+
+.htt-tweet-blockquote a.htt-tweet:hover:before {
+  background: #55acee; }
+
+.htt-tweet-blockquote a.htt-tweet:hover .htt-tweeticon svg path {
+  fill: #55acee !important; }
+
+.htt-tweet-blockquote .htt-tweeticon:before {
+  display: none; }

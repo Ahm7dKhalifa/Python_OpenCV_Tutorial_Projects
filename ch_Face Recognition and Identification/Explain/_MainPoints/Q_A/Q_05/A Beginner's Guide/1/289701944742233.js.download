@@ -1,0 +1,15 @@
+window.mcwidget = {
+  appId: '532160876956612',
+  pageId: '289701944742233',
+  widgets: [{"widget_id":3007537,"page_id":289701944742233,"widget_type":"button","status":"active","name":"Webinar-Notifications","data":{"main":{"buttonType":"checkbox","optInButtonText":"Take me to the next level","colors":{"buttonBackground":"#427DE5","buttonText":"#FFFFFF"}}}},{"widget_id":2168034,"page_id":289701944742233,"widget_type":"customer_chat","status":"active","name":"DSGO Support","data":{"setup":{"urlWhitelist":["https:\/\/www.datasciencego.com\/"],"urlBlacklist":"","minimized":"minimized","dialogDelay":"36"}},"chat_ref":"w2168034"},{"widget_id":28990,"page_id":289701944742233,"widget_type":"slide_in","status":"active","name":"SDS - Contact Us","data":{"main":{"title":"Questions about our membership? Chat with us below! We can help you getting started today!","desc":"Chat with one of our specialists below, we'll get you set up!","whenDisplay":["scroll","15"],"showAgain":["always","3"],"showAgainIfClosed":["always","1"]},"submitted":{"title":"Thank You&nbsp;for Your Message!","desc":""},"setup":{"urlWhitelist":["https:\/\/www.superdatascience.com\/pricing\/"]}}}],
+  locale: 'en_US',
+  defaultSize: 0};
+(function(d, s, id){
+var host = 'manychat.com/107453';
+
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) { return; }
+js = d.createElement(s); js.id = id;
+js.src = '//' + host + '/assets/js/widget.js?' + (Math.round(+new Date/1000*600));
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'mcwidget-core'));

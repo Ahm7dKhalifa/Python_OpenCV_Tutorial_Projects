@@ -1,0 +1,27 @@
+/*
+    moonray forms wp styles
+    to fix the madness that tiny mce creates
+*/
+
+
+/* makes sbs look like on top */
+
+.moonray_form p {
+	margin: 0px;
+}
+
+div.moonray_smart_form br,div.moonray_affiliate_signup_form br {
+    display: none;
+}
+
+
+div.moonray_forms fieldset.moonray_form_format_labels_on_top label {
+    margin-bottom:1px;
+    width: 100%;
+    clear: both;
+}
+
+div.moonray_forms fieldset.moonray_form_format_labels_inside label {
+    width:auto;
+    padding-right:5px;
+}

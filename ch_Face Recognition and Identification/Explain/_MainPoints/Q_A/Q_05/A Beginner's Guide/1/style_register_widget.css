@@ -1,0 +1,98 @@
+.reg_error {
+    color: #F4484A;  
+    font-weight: 500;
+    width:100%;
+	padding:6px;
+	border-left:4px solid #F4484A;
+	margin:10px 0px;
+	background-color:#FFE1E2;
+	display:inline-block;
+}
+.reg_success {
+	color: #336600;  
+    font-weight: 500;
+    width:100%;
+	padding:6px;
+	border-left:4px solid #336600;
+	margin:10px 0px;
+	background-color:#E2F4DB;
+	display:inline-block;
+}
+
+.ap-table{
+background-color:#FFFFFF; 
+padding:5px; 
+margin-top:5px; 
+border:1px solid #999999;
+}
+.field_form_table td{
+padding:8px;
+}
+.reg-form-group{
+margin: 5px;
+padding:10px 0;
+}  
+.reg-form-group > input[type=text],
+input[type=email],
+input[type=password],
+input[type=url],
+input[type=tel]
+{
+width:100% !important;
+padding: 5px !important;
+border:1px solid #CCCCCC;
+margin-top:5px !important;
+}
+.reg-form-group > textarea{
+width:100%;
+border:1px solid #CCCCCC;
+}
+.reg-form-group > select{
+width:100%;
+padding: 5px !important;
+border:1px solid #CCCCCC;
+margin-top:5px;
+}
+.reg-form-group > input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=url]:focus,
+input[type=tel]:focus,
+textarea:focus {
+border:1px solid #00A0D5;
+}
+.reg-form-group > label{
+margin-left:0;
+}
+.reg-form-group > input[type=submit]{
+width: auto;
+margin-right:1%
+}
+/* tabs */
+.ap-tab-content{
+padding:10px 0px 10px 0px;
+}
+.ap-active{
+background-color: #FFFFFF !important;
+border-bottom: 1px solid #0073AA !important;
+}
+.ap-tabs{
+width:100%;
+border-bottom:1px solid #cccccc;
+}
+.ap-tab{
+width:100px;
+text-align:center;
+display:inline-block;
+padding:10px;
+border:1px solid #F1F1F1;
+background-color:#F1F1F1;
+border-bottom:1px solid #F1F1F1;
+cursor:pointer;
+margin:2px 0px 0px 0px;
+}
+/* tabs */
+
+.rw-error{ color:#ff0000; } 
+input.rw-error{ border:1px solid #ff0000 !important; }
+textarea.rw-error{ border:1px solid #ff0000 !important; }

@@ -1,0 +1,51 @@
+.gs_lp_like_container {
+	overflow: hidden;
+  	padding: 15px 0;
+  	margin: 15px 0;
+  	border-bottom: 1px solid #cccccc;
+  	border-top: 1px solid #cccccc;
+}
+.gs_lp_like_container .gs_lp_like_col {
+	float: left;
+	margin-left: 10px;
+}
+.gs_lp_like_container .gs_lp_like_col:first-child {
+	margin-left: 0;
+}
+.gs_lp_like_container .gs_lp_like_icon {
+	width: 40px;
+  	height: 40px;
+  	line-height: 38px;
+  	text-align: center;
+  	border-radius: 50%;
+  	border: 2px solid;
+  	float: left;
+  	cursor: pointer;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-o-box-sizing: border-box;
+  	-ms-box-sizing: border-box;
+}
+.gs_lp_like_container .gs_lp_like_icon.activeUser {
+	background: #333333;
+}
+.gs_lp_like_container .gs_lp_like_icon span {
+	font-size: 16px;
+  	line-height: 38px;
+  	padding-left: 1px;
+  	display: block;
+}
+.gs_lp_like_container .gs_lp_like .gs_lp_like_icon.activeUser span, .gs_lp_like_container .gs_lp_dislike .gs_lp_like_icon.activeUser span {
+	color: #ffffff;
+}
+.gs_lp_like_container .gs_lp_like_col p {
+	margin-left: 50px;
+  	line-height: 40px;
+  	font-size: 18px;
+  	margin-bottom: 0;
+}
+.gs_must_login {
+	font-size: 16px;
+ 	margin-bottom: 0;
+  	font-family: Arial;
+}
