@@ -69,7 +69,7 @@ main points in Image Enhancement
 - b1->155,156,157
 - n/17-->12
 - q/a
-
+- see histogram chapter
 ==========================================
 8.Point Operations Examples or applications 
   - Negative
@@ -77,6 +77,7 @@ main points in Image Enhancement
 - n/17-->10,11,12
 - b1-> 157
 - q/a
+- https://docs.opencv.org/2.4.13.7/modules/core/doc/operations_on_arrays.html#bitwise-not
 - https://www.youtube.com/watch?v=_RGJT6JKO1o
 - https://www.youtube.com/watch?v=DCxmOIFWdRs
 - https://stackoverflow.com/questions/19580102/inverting-image-in-python-with-opencv
@@ -89,6 +90,8 @@ main points in Image Enhancement
 ==========================================
 - b1-> 157
 - n/17-->18,19
+- https://docs.opencv.org/2.4.13.7/modules/core/doc/operations_on_arrays.html#pow
+- https://code.tutsplus.com/articles/image-enhancement-in-python--cms-29289
 - https://www.youtube.com/watch?v=Pm1CXUGRE84
 - https://www.pyimagesearch.com/2015/10/05/opencv-gamma-correction/
 ==========================================
@@ -97,6 +100,11 @@ main points in Image Enhancement
 ==========================================
 - b1->159
 - n/17-->17
+#q/a
+1-https://www.youtube.com/watch?v=3wOmechbCXQ
+2-https://www.youtube.com/watch?v=1JieWQUfar4
+3-https://docs.opencv.org/3.4/d7/d4d/tutorial_py_thresholding.html
+4-https://docs.opencv.org/2.4.13.7/modules/core/doc/operations_on_arrays.html#log
 ==========================================
 11.what is Piecewise Linear Transformations
 ==========================================
