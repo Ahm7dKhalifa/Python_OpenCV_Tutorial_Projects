@@ -1,0 +1,8 @@
+book :
+practical image and video processing using matlab/chapter14
+----------------------
+links :
+https://www.mathworks.com/discovery/edge-detection.html
+https://medium.com/@nikatsanka/comparing-edge-detection-methods-638a2919476e
+https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Gradient_Sobel_Laplacian_Derivatives_Edge_Detection.php
+https://docs.opencv.org/3.1.0/da/d22/tutorial_py_canny.html
