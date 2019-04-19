@@ -1,0 +1,97 @@
+#################################
+shortcut meaning used in in the main points
+#################################
+q/a = Q_A Folder
+---------------------------------
+n = NPTEL folder
+for ex :
+n/17/3 :
+folder nptel - folder 17 - page number 3 in the pdf 
+----------------------------------
+b1 = practical image and video processing using matlab book
+for ex :
+b1/151 mean page number 151
+
+========================================
+1.what is NEIGHBORHOOD PROCESSING
+========================================
+#b1/203
+
+==========================================
+2.neighborhood processing operations follow a sequence of steps
+==========================================
+#b1/204
+
+==========================================
+3.The techniques of NEIGHBORHOOD PROCESSING
+==========================================
+#b1/204
+
+==========================================
+4.CONVOLUTION AND CORRELATION
+==========================================
+#b1/204
+#q/a
+1-https://ch.mathworks.com/matlabcentral/answers/264746-difference-between-convolution-and-correlation
+==========================================
+5.Dealing with Image Borders
+==========================================
+#b1/210
+
+==========================================
+6.filters
+-->(LPF)
+-->(HPF)
+==========================================
+#b1/212
+
+==========================================
+7.1.averaging filter or image smoothing filter or mean filters :
+  - a box filter.
+  - weighted average filter.
+7.2.the relation between the size of filters and blur effects 
+==========================================
+NPTEL/LEC-20/SLIDE-7
+
+==========================================
+8.- median filters
+  - advantage for median filtering rather than smooth smoothing filtering
+==========================================
+NPTEL/LEC-20/SLIDE-12
+
+==========================================
+9.- IMAGE SHARPENING (HIGH-PASS FILTERS) or sharpening spatial filters 
+  - first order or second order
+  - Laplacian
+  - emboss filters or Directional Difference Filters
+  - High-Boost Filtering or high-frequency emphasis
+==========================================
+NPTEL/LEC-20/SLIDE-16
+#b1/218
+
+==========================================
+10.Unsharp Masking techniques
+==========================================
+#b1/221
+
+==========================================
+11.REGION OF INTEREST PROCESSING
+==========================================
+#b1/222
+
+==========================================
+12.opencv documents : 
+==========================================
+#q/a --> general
+1-https://medium.com/@almutawakel.ali/opencv-filters-arithmetic-operations-2f4ff236d6aa
+#q/a --> Smoothing filters 
+1- https://docs.opencv.org/3.1.0/d4/d13/tutorial_py_filtering.html
+2- https://docs.opencv.org/3.1.0/d4/d86/group__imgproc__filter.html#ga27c049795ce870216ddfb366086b5a04
+#q/a --> Smoothing filters --> Averaging
+1- https://docs.opencv.org/3.1.0/d4/d86/group__imgproc__filter.html#ga8c45db9afe636703801b0b2e440fce37
+2- https://docs.opencv.org/3.1.0/d4/d86/group__imgproc__filter.html#gad533230ebf2d42509547d514f7d3fbc3
+#q/a --> Smoothing filters --> Median Blurring
+1-https://docs.opencv.org/3.1.0/d4/d86/group__imgproc__filter.html#ga564869aa33e58769b4469101aac458f9
+==========================================
+13.
+==========================================
