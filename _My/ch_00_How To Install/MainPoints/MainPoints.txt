@@ -34,18 +34,23 @@ https://www.learnopencv.com/install-opencv-3-and-dlib-on-windows-python-only/
 ***third way :
 https://gitall.tech/tutorial/installation-opencv-on-windows-using-anaconda/
 ==========================================
-4.
+4.Installing a Python Based Machine Learning Environment in Windows 10
 ==========================================
-
-
-==========================================
-5.
-==========================================
-
+#q/a
+0- https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+1- https://medium.com/i-want-to-be-the-very-best/installing-keras-tensorflow-using-anaconda-for-machine-learning-44ab28ff39cb
 
 ==========================================
-6.
+5.how-to-run-spyder-in-virtual-environment
 ==========================================
+#q/a
+1- https://stackoverflow.com/questions/30170468/how-to-run-spyder-in-virtual-environment
+
+==========================================
+6.python_command_line_arguments
+==========================================
+#q/a
+1- https://www.tutorialspoint.com/python/python_command_line_arguments.htm
 
 
 ==========================================
