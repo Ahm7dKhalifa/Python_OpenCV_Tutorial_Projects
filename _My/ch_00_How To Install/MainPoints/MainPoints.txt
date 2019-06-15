@@ -51,7 +51,7 @@ https://gitall.tech/tutorial/installation-opencv-on-windows-using-anaconda/
 ==========================================
 #q/a
 1- https://www.tutorialspoint.com/python/python_command_line_arguments.htm
-
+2- https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
 
 ==========================================
 7.
